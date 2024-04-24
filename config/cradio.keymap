@@ -54,13 +54,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &kp LBKT    &kp N7     &kp N8     &kp N9     &RBKT         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
+            &kp LBKT    &kp N7     &kp N8     &kp N9     &kp RBKT      &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp SEMI    &kp N4     &kp N5     &kp N6     &kp EQUAL     &trans    &kp RSHFT  &kp RCTRL   &kp RALT   &kp RGUI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-            &GRAVE      &kp N1     &kp N2     &kp N3     &kp          &trans     &trans     &trans     &trans     &trans
+            &kp GRAVE      &kp N1     &kp N2     &kp N3     &kp BSLH      &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp DOT     &kp N0        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
