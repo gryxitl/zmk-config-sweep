@@ -105,15 +105,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ TAB      │    Q     │    W     │     E    │     R    │   │ to 0     │          │          │          │  RESET   │
-           &kp TAB     &kp Q       &kp W     &kp E       &kp R        &to 0        &trans     &trans     &trans    &sys_reset
+           &kp TAB     &kp Q       &kp W     &kp E       &kp R        &to 0        &trans     &kp UP     &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│left shift│    A     │    S     │     D    │     F    │   │ PROFILE 4│          │          │          │BOOTLOADER│
-          &kp LSHFT    &kp S     &kp A       &kp D       &kp F        &bt BT_SEL 4  &trans     &trans     &trans    &bootloader
+          &kp LSHFT    &kp S     &kp A       &kp D       &kp F        &trans      &kp LEFT   &kp DOWN  &kp RIGHT    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│left ctrl │    Z     │    X     │     C    │    V      │   │ CLEAR BTA│          │          │          │          │
-            &kp LCTRL    &kp Z     &kp X    &kp C      &kp V          &bt BT_CLR_ALL &trans     &trans     &trans     &trans
+        //│left ctrl │    Z     │    X     │     C    │    V     │   │ CLEAR BTA│          │          │          │          │
+            &kp LCTRL    &kp Z     &kp X    &kp C      &kp V          &trans        &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp ESC    &kp SPACE         &trans     &trans
+                                             &kp ESC    &kp SPACE       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
